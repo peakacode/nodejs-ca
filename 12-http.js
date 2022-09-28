@@ -32,3 +32,17 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(5000)
+
+//===BACKUP
+// const http = require('http')
+
+// const server = http.createServer((req, res) => {
+//   console.log('request event')
+//   res.end('Hello World')
+// })
+
+// const PORT = 5000
+// server.listen(PORT, () => {
+//   console.log(`Server is running at http://localhost:${PORT}`)
+// })
+
